@@ -1,0 +1,48 @@
+.headerContainer {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.headerContent {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.actions{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #8047F8;
+  background-color: #EBE5F9;
+  padding: 0.5rem;
+  border-radius: 6px;
+
+  font-family: Roboto, sans-serif;
+  line-height: 1.3;
+  font-weight: bold;
+
+  text-decoration: none;
+}
+
+.location svg {
+  margin-right: 0.5rem;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  color: #C47F17;
+  background-color: #F1E9C9;
+  border-radius: 6px;
+}

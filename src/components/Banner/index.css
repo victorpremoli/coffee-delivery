@@ -1,0 +1,56 @@
+.bannerContainer {
+  max-width: 1120px;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+.bannerContent {
+  font-family: 'Roboto', sans-serif; ;
+}
+
+.bannerContent h1 {
+  font-family: 'Baloo 2';
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.3;
+}
+
+.bannerContent p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.bannerContentTags {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 4.5rem;
+}
+
+.bannerContentTags span {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.bannerContentTags span p {
+  font-size: 1rem;
+}
+
+.bannerContentTags span svg {
+  background: #C47F17;
+  padding: 8px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.bannerImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
